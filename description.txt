@@ -1,0 +1,24 @@
+**************************************
+Author:   Adeyemi Adedoyin Simeon
+Date:     May, 2020
+Email: 	  adeyemi.sa1@gmail.com
+Location: Nigeria
+**************************************
+
+This project is developed with python. 
+
+The two trained models are built with similar configurations.
+
+Model1: 
+	(2Conv + MaxPool)*2 + FFNN + Softmax
+	Adams Optimizer
+
+Model2: 
+	[2Conv + MaxPool + dropout(0.25)]*2 + FFNN + dropout(0.5) + Softmax
+	RMSProp Optimizer + Dropout
+
+Performance: 
+	Model1: 93%
+	Model2: 97%
+
+Dataset: Available in gdrive. (private).
